@@ -17,4 +17,10 @@ This project provides insights into hotel booking data — including occupancy t
 - Room Type & Meal Plan Analysis  
 - Booking Source & Cancellation Rate Visualization  
 - ADR (Average Daily Rate) and Revenue Insights  
-- Channel & Agent Performance Tracking  
+- Channel & Agent Performance Tracking
+  
+
+## 📊 Dataset Information
+- Columns: Hotel type, Arrival date, Country, Market segment, Agent, Room type, Meal, ADR, Booking status, etc.
+- Source: Kaggle Hotel Booking Dataset or internal property management data.
+- Data Cleaning: Missing value handling, outlier detection, and feature formatting.

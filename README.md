@@ -4,11 +4,12 @@ This project provides insights into hotel booking data — including occupancy t
 
 
 
-##🎯 Key Objectives
--Understand booking patterns based on room type, meal plan, and customer segment.
--Evaluate Average Daily Rate (ADR), revenue trends, and occupancy performance.
--Identify key factors influencing booking cancellations.
--Analyze source and agent performance for better channel management.
+## 🎯  Key Objectives
+
+- Understand booking patterns based on room type, meal plan, and customer segment.
+- Evaluate Average Daily Rate (ADR), revenue trends, and occupancy performance.
+- Identify key factors influencing booking cancellations.
+- Analyze source and agent performance for better channel management.
 
 
 

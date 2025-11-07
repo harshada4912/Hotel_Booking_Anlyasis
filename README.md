@@ -24,3 +24,15 @@ This project provides insights into hotel booking data — including occupancy t
 - Columns: Hotel type, Arrival date, Country, Market segment, Agent, Room type, Meal, ADR, Booking status, etc.
 - Source: Kaggle Hotel Booking Dataset or internal property management data.
 - Data Cleaning: Missing value handling, outlier detection, and feature formatting.
+
+
+## 📊 Key Performance Indicators (KPIs)
+-KPI	Description	DAX / Calculation Idea
+-Total Bookings	Count of all bookings	COUNTROWS(Bookings)
+-Cancellation Rate	% of canceled bookings	(SUM(is_canceled)/COUNTROWS(Bookings))*100
+-Average Daily Rate (ADR)	Average revenue per room per night	AVERAGE(adr)
+-Revenue Lost due to Cancellations	Potential revenue from canceled bookings	SUMX(FILTER(Bookings, is_canceled=1), adr)
+-Total Guests	Total adults + children + babies	SUM(adults)+SUM(children)+SUM(babies)
+-Average Lead Time	Avg days before arrival	AVERAGE(lead_time)
+
+

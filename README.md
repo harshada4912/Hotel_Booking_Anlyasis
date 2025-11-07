@@ -35,10 +35,19 @@ This project provides insights into hotel booking data — including occupancy t
 - Total Guests	Total adults + children + babies	SUM(adults)+SUM(children)+SUM(babies)
 - Average Lead Time	Avg days before arrival	AVERAGE(lead_time)
 
-💡 Insights
+## 💡 Insights
 
 - Higher cancellation rates observed in Online Travel Agent (OTA) bookings.
 - City Hotels show higher occupancy but lower ADR compared to Resort Hotels.
 - Most guests prefer BB (Bed & Breakfast) meal plans.
 - Revenue is highest during summer months, indicating strong seasonal demand.
 - Longer lead times correspond to higher booking success rates.
+
+
+## 📈 Visualizations in Power BI
+Visualization	Purpose
+-  Bar Chart – Cancellation by Market Segment	Identify which segments have high cancellations
+-  Line Chart – ADR by Month	Track room rate trends through the year
+-  Gauge Chart – Avg Lead Time Performance	Compare booking lead times against benchmarks
+-  Donut Chart – Meal Plan Popularity	Identify top preferred meal plans
+- Table / KPI Cards	Display overall performance summary (bookings, cancellations, ADR, guests)

@@ -35,4 +35,10 @@ This project provides insights into hotel booking data — including occupancy t
 - Total Guests	Total adults + children + babies	SUM(adults)+SUM(children)+SUM(babies)
 - Average Lead Time	Avg days before arrival	AVERAGE(lead_time)
 
+💡 Insights
 
+- Higher cancellation rates observed in Online Travel Agent (OTA) bookings.
+- City Hotels show higher occupancy but lower ADR compared to Resort Hotels.
+- Most guests prefer BB (Bed & Breakfast) meal plans.
+- Revenue is highest during summer months, indicating strong seasonal demand.
+- Longer lead times correspond to higher booking success rates.
